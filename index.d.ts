@@ -1,6 +1,7 @@
 declare interface Styles <T> {
   // General
   reset: T;
+  dim: T;
   bold: T;
   italic: T;
   underline: T;
