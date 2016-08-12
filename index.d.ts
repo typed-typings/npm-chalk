@@ -52,7 +52,7 @@ declare namespace chalk {
     close: string;
     closeRe: RegExp;
   }
-  
+
   export interface Chalk extends Styles<Style> {
 
     /**
@@ -63,14 +63,14 @@ declare namespace chalk {
      * ```
      */
     constructor: new (options?: { enabled: boolean }) => Chalk;
-    
+
     /**
      * Color support is automatically detected, but you can override it by setting the enabled
      * property. You should however only do this in your own code as it applies globally to all
      * chalk consumers.
      */
     enabled: boolean;
-    
+
     /**
      *
      * Exposes the styles as [ANSI escape codes](https://github.com/chalk/ansi-styles).
