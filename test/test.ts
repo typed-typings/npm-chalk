@@ -1,16 +1,4 @@
-# Typed Chalk
-[![Build Status](https://travis-ci.org/types/npm-chalk.svg?branch=master)](https://travis-ci.org/types/npm-chalk)
 
-The type definition for [chalk](https://github.com/chalk/chalk).
-
-## Installation
-```sh
-typings install --save chalk
-```
-
-## Usage
-
-```ts
 import chalk = require('chalk');
 
 let val: string;
@@ -50,12 +38,3 @@ ctx = new chalk.constructor();
 function sayHello(style: chalk.Style): void {
   console.log(style('Hello World'));
 }
-```
-
-## Contributing
-You can run the tests by running `npm run build` and then `npm run test`.
-
-
-## License
-
-MIT
