@@ -1,4 +1,6 @@
 # Typed Chalk
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-chalk.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-chalk.svg?branch=master)](https://travis-ci.org/types/npm-chalk)
 
 The type definition for [chalk](https://github.com/chalk/chalk).
